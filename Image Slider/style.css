@@ -1,46 +1,46 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
 }
 
-@keyframes slide{
-   10%{
-       background: url('./Images/2.jpg');
-   }
-    20%{
-         background: url('./Images/3.jpg');
-    }
-    30%{
-         background: url('./Images/4.jpg');
-    }
-    40%{
-         background: url('./Images/5.jpg');
-    }
-    50%{
-         background: url('./Images/6.jpg');
-    }
-    60%{
-         background: url('./Images/7.jpg');
-    }
-    70%{
-         background: url('./Images/8.jpg');
-    }
-    80%{
-         background: url('./Images/9.jpg');
-    }
-    90%{
-         background: url('./Images/10.jpg');
-    }
-    100%{
-         background: url('./Images/1.jpg');
-    }
+@keyframes slide {
+  10% {
+    background: url("./Images/2.jpg");
+  }
+  20% {
+    background: url("./Images/3.jpg");
+  }
+  30% {
+    background: url("./Images/4.jpg");
+  }
+  40% {
+    background: url("./Images/5.jpg");
+  }
+  50% {
+    background: url("./Images/6.jpg");
+  }
+  60% {
+    background: url("./Images/7.jpg");
+  }
+  70% {
+    background: url("./Images/8.jpg");
+  }
+  80% {
+    background: url("./Images/9.jpg");
+  }
+  90% {
+    background: url("./Images/10.jpg");
+  }
+  100% {
+    background: url("./Images/1.jpg");
+  }
 }
 
-.slider{
-    width: 900px;
-    height: 600px;
-    background: url('./Images/1.jpg');
-    margin: 100px auto;
-    animation: slide 50s infinite;
+.slider {
+  width: 900px;
+  height: 600px;
+  background: url("./Images/1.jpg");
+  margin: 100px auto;
+  animation: slide 50s infinite;
 }
